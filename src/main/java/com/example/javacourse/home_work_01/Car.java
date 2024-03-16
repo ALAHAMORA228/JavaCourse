@@ -20,7 +20,7 @@ public class Car {
         this.tires=tires;
     }
 
-    public Car(@Qualifier("getEngine") Engine engine){
+    public Car(@Qualifier("getSlowEngine") Engine engine){
         this.engine=engine;
     }
 }
